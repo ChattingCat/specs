@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name             = "ChattingcatSdk"
+s.name             = "ChattingCatSdk"
 s.version          = "0.1.0"
 s.summary          = "A short description of chattingcat-sdk-ios."
 s.license          = 'MIT'
