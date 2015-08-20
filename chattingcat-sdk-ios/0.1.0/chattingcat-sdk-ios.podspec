@@ -2,13 +2,13 @@ Pod::Spec.new do |s|
 s.name             = "chattingcat-sdk-ios"
 s.version          = "0.1.0"
 s.summary          = "A short description of chattingcat-sdk-ios."
-s.homepage         = "https://github.com/ChattingCat/chattingcat-sdk-ios"
 s.license          = 'MIT'
+s.homepage         = "https://github.com/ChattingCat/chattingcat-sdk-ios"
 s.author           = { "allen" => "allen@chattingcat.com" }
 s.source           = { :git => "https://github.com/ChattingCat/chattingcat-sdk-ios.git", :tag => s.version.to_s }
 
-s.platform     = :ios, '7.0'
-s.requires_arc = true
+  s.platform     = :ios, '7.0'
+  s.requires_arc = true
 
 s.source_files = 'Pod/Classes/**/*'
 s.resource_bundles = {
